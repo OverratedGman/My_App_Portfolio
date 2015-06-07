@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My AppPortfolio</string>
+    <string name="MainTitle">My Nanodegree apps!</string>
+    <string name="action_settings">Settings</string>
+</resources>
