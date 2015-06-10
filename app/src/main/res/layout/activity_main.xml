@@ -16,7 +16,6 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text= "@string/MainTitle"
         android:id="@+id/app_name"
-        android:layout_column="14"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="top"
