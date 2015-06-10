@@ -4,7 +4,9 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:id="@+id/mainActivity">
+    android:id="@+id/mainActivity"
+    android:background="@color/Blue"
+    >
 
 
 
@@ -17,6 +19,74 @@
         android:layout_column="14"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="left"
+        android:layout_gravity="top"
+        android:textSize="33sp"
+        />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/SpotifyStreamer"
+        android:textSize="24sp"
+        android:id="@+id/SSButton"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Orange1"
+        />
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/ScoresApp"
+        android:textSize="24sp"
+        android:id="@+id/SAButton"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Orange2"
+        />
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/LibraryApp"
+        android:textSize="24sp"
+        android:id="@+id/LAButton"
+        android:layout_marginTop="150dp"
+        android:layout_below="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Orange3"
+        />
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/BuildItBigger"
+        android:textSize="24sp"
+        android:id="@+id/BIBButton"
+        android:layout_marginTop="220dp"
+        android:layout_below="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Orange4"
+        />
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/XYZReader"
+        android:textSize="24sp"
+        android:id="@+id/XYZRButton"
+        android:layout_marginTop="290dp"
+        android:layout_below="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Orange5"
+        />
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/Capstone"
+        android:textSize="24sp"
+        android:id="@+id/CSButton"
+        android:layout_marginTop="360dp"
+        android:layout_below="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Orange6"
         />
 </RelativeLayout>
