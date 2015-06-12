@@ -1,12 +1,19 @@
 package com.example.gautham.myappportfolio;
 
+import android.content.Context;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,5 +41,49 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+    public void toastSS(View view){
+        Context context1 = getApplicationContext();
+        int duration1 = Toast.LENGTH_SHORT;
+        Toast toast1 = new Toast(context1);
+        CharSequence text1 = "This button will launch my Spotify streamer app!";
+        toast1.makeText(context1,text1,duration1).show();
+    }
+    public void toastSA(View view){
+        Context context1 = getApplicationContext();
+        int duration1 = Toast.LENGTH_SHORT;
+        Toast toast1 = new Toast(context1);
+        CharSequence text1 = "This button will launch my Scores app!";
+        toast1.makeText(context1,text1,duration1).show();
+    }
+    public void toastLA(View view){
+        Context context1 = getApplicationContext();
+        int duration1 = Toast.LENGTH_SHORT;
+        Toast toast1 = new Toast(context1);
+        CharSequence text1 = "This app will launch my Library app!";
+        toast1.makeText(context1,text1,duration1).show();
+    }
+    public void toastBIB(View view){
+        Context context1 = getApplicationContext();
+        int duration1 = Toast.LENGTH_SHORT;
+        Toast toast1 = new Toast(context1);
+        CharSequence text1 = "This button will launch my Build it bigger app!";
+        toast1.makeText(context1,text1,duration1).show();
+    }
+    public void toastXYZR(View view){
+        Context context1 = getApplicationContext();
+        int duration1 = Toast.LENGTH_SHORT;
+        Toast toast1 = new Toast(context1);
+        CharSequence text1 = "This button will launch my XYZ reader app!";
+        toast1.makeText(context1,text1,duration1).show();
+    }
+    public void toastCS(View view){
+        Context context1 = getApplicationContext();
+        int duration1 = Toast.LENGTH_SHORT;
+        Toast toast1 = new Toast(context1);
+        CharSequence text1 = "This button will launch my Capstone app!";
+        toast1.makeText(context1,text1,duration1).show();
     }
 }

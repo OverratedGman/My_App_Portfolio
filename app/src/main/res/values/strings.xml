@@ -10,10 +10,10 @@
     <string name="Capstone">Capstone</string>
 
     <color name="Blue">#00A4B2</color>
-    <color name="Orange1">#FFF400</color>
-    <color name="Orange2">#FFC400</color>
-    <color name="Orange3">#FF9400</color>
-    <color name="Orange4">#FF6400</color>
-    <color name="Orange5">#FF3400</color>
-    <color name="Orange6">#FF0000</color>
+    <color name="Orange1">#FFD900</color>
+    <color name="Orange2">#FFAC00</color>
+    <color name="Orange3">#FF8F00</color>
+    <color name="Orange4">#FF5D00</color>
+    <color name="Orange5">#FF3900</color>
+    <color name="Orange6">#FF0500</color>
 </resources>
